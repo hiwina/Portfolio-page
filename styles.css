@@ -23,7 +23,7 @@
   width: 200px;
   height: 74px;
   height: 28px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -32,7 +32,7 @@
   color: #28352f;
 }
 
-.toolbar-container a{
+.toolbar-container a {
   text-decoration: none;
   font-size: 35px;
   display: block;
@@ -61,7 +61,7 @@ h1 {
   margin-left: 80px;
   margin-right: 80px;
   font-style: normal;
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 400px;
   text-align: center;
 }
@@ -71,13 +71,13 @@ h1 {
 }
 
 .supporting-text {
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #172B4d;
+  color: #172b4d;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -100,4 +100,4 @@ h1 {
   display: flex;
   list-style: none;
   align-items: center;
-} 
+}
