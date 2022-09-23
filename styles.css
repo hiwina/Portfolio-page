@@ -8,14 +8,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 475px;
+  width: 375px;
 }
 
 .toolbar-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 90%;
+  width: 70%;
 }
 
 .logo {
@@ -44,29 +44,29 @@
 .headline {
   display: flex;
   flex-direction: column;
-  width: 475px;
+  width: 375px;
 }
 
 .primary-headline {
-  background-image: url(image/header-illsutration-mobile@2x.png);
+  background-image: url(image/header-illsutration-mobile@2x.JPEG);
   background-size: cover;
   left: -126.38px;
   top: 98.12px;
-  height: 100vh;
+  height: 100%;
 }
 
 h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   align-self: start;
-  line-height: 130%;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-left: 80px;
-  margin-right: 80px;
+  line-height: 52px;
+  margin-right: 20px;
+  margin-top: 85px;
+  margin-bottom: 20px;
+  margin-left: 20px;
   font-style: normal;
   color: #172b4d;
-  font-weight: 400px;
+  font-weight: 700px;
   text-align: center;
 }
 
@@ -82,25 +82,19 @@ h1 {
   line-height: 28px;
   color: #172b4d;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-bottom: 90.15px;
+  margin-top: 8.43px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .menu-bar {
   display: none;
 }
 
-.social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
-}
-
 .socialt {
   display: flex;
+  margin-left: 130px;
   list-style: none;
   align-items: center;
 }
