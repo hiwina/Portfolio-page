@@ -1,80 +1,95 @@
-* {
+*
+{
   margin: 0;
   padding: 0;
-  background-color: #e5e5e5;
 }
 
-.navigation {
+.navigation
+{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 375px;
+  top: 40px;
+  margin-top: 44px;
 }
 
-.toolbar-container {
+.toolbar-container
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 70%;
+  width: 100%;
 }
 
-.logo {
-  margin-right: 60%;
+.logo
+{
+  margin-right: 40%;
   background-repeat: no-repeat;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 28px;
   margin-top: 10px;
   margin-left: 5px;
 }
 
-.toolbar-container a {
+.toolbar-container a
+{
   text-decoration: none;
-  font-size: 35px;
+  font-size: 30px;
   display: block;
   color: #28352f;
 }
 
-.toolbar-container a:hover {
+.toolbar-container a:hover
+{
   color: #e71010;
 }
 
-.headline {
+.headline
+{
   display: flex;
   flex-direction: column;
-  width: 375px;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 58px;
+  position: absolute;
+  width: 379px;
+  height: 726px;
+  left: 0px;
+  top: 90px;
 }
 
-.primary-headline {
+.back-image
+{
   background-image: url(image/header-illsutration-mobile@2x.JPEG);
-  background-size: cover;
-  left: -126.38px;
-  top: 98.12px;
-  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-h1 {
+.primary-headline h1
+{
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   align-self: start;
   line-height: 52px;
-  margin-right: 20px;
-  margin-top: 85px;
-  margin-bottom: 20px;
-  margin-left: 20px;
   font-style: normal;
   color: #172b4d;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
+  width: 300px;
+  height: 192px;
 }
 
-.h1color {
+.h1color
+{
   color: rgb(59, 200, 122);
 }
 
-.supporting-text {
+.supporting-text
+{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -82,19 +97,21 @@ h1 {
   line-height: 28px;
   color: #172b4d;
   text-align: center;
-  margin-bottom: 90.15px;
-  margin-top: 8.43px;
-  margin-right: 20px;
-  margin-left: 20px;
+  width: 327px;
+  height: 164px;
 }
 
-.menu-bar {
+.menu-bar
+{
   display: none;
 }
 
-.socialt {
+.socialt
+{
+  width: 170.17px;
+  height: 20px;
   display: flex;
-  margin-left: 130px;
-  list-style: none;
   align-items: center;
+  list-style: none;
 }
+
