@@ -550,7 +550,7 @@
 }
 
 ::placeholder {
-  font-family: 'Inter' sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -681,7 +681,7 @@
   padding: 12px;
 }
 
-.footer-email a {
+#contact-email {
   text-decoration: none;
 }
 
