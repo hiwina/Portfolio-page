@@ -554,7 +554,7 @@
   width: 327px;
   height: 48px;
   box-sizing: border-box;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   padding: 15px 15px;
@@ -565,7 +565,7 @@
   width: 327px;
   height: 48px;
   box-sizing: border-box;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   gap: 24px;
@@ -577,7 +577,7 @@
   box-sizing: border-box;
   width: 327px;
   height: 114px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
 }
@@ -619,7 +619,7 @@
   color: #fff;
 }
 
-.footer-email a {
+.contact-social .footer-email a {
   width: 375px;
   height: 189px;
   font-family: 'Inter', sans-serif;
@@ -663,5 +663,4 @@
   width: 375px;
   height: 34px;
   left: calc(50% - 375px / 2);
-  bottom: 0px;
 }
