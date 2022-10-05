@@ -681,6 +681,10 @@
   padding: 12px;
 }
 
+.footer-email a {
+  text-decoration: none;
+}
+
 .footer-email {
   width: 327px;
   height: 189px;
@@ -690,10 +694,6 @@
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
-}
-
-.footer-email a {
-  text-decoration: none;
 }
 
 #footer-image {
